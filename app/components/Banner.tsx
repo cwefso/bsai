@@ -26,7 +26,7 @@ export const Banner = () => {
             </a>
 
             <a
-              className="block w-full rounded px-12 py-3 text-sm font-medium text-teal-600 shadow hover:text-teal-700 focus:outline-none focus:ring active:text-red-500 sm:w-auto"
+              className="block w-full rounded bg-white px-12 py-3 text-sm font-medium text-teal-600 shadow hover:text-teal-700 hover:bg-gray-300 focus:outline-none focus:ring active:text-red-500 sm:w-auto"
               href="#"
             >
               Learn More

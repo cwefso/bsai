@@ -24,7 +24,7 @@ const Testimonial = ({
   image: string;
 }) => {
   return (
-    <blockquote className="rounded-lg bg-gray-50 p-6 shadow-sm sm:p-8">
+    <blockquote className="block rounded-xl border border-gray-800 bg-gray-900 p-8 shadow-xl transition hover:border-teal-600/10 hover:shadow-teal-600/10">
       <div className="flex items-center gap-4">
         <img alt="" src={image} className="size-14 rounded-full object-cover" />
 
@@ -32,11 +32,11 @@ const Testimonial = ({
           <div className="flex justify-start gap-0.5 text-teal-600">
             <Stars count={rating} />
           </div>
-          <p className="mt-0.5 text-lg font-medium text-gray-900">{name}</p>
+          <p className="mt-0.5 text-lg font-medium ">{name}</p>
         </div>
       </div>
 
-      <p className="mt-4 text-gray-700">{content}</p>
+      <p className="mt-4">{content}</p>
     </blockquote>
   );
 };

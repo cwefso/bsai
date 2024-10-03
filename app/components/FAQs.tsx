@@ -5,7 +5,7 @@ const FAQs = () => {
         className="group [&_summary::-webkit-details-marker]:hidden"
         open
       >
-        <summary className="flex cursor-pointer items-center justify-between gap-1.5 rounded-lg bg-gray-50 p-4 text-gray-900">
+        <summary className="flex cursor-pointer items-center justify-between gap-1.5 rounded-lg bg-gray-50 p-4 ">
           <h2 className="font-medium">
             Lorem ipsum dolor sit amet consectetur adipisicing?
           </h2>
@@ -26,7 +26,7 @@ const FAQs = () => {
           </svg>
         </summary>
 
-        <p className="mt-4 px-4 leading-relaxed text-gray-700">
+        <p className="mt-4 px-4 leading-relaxed ">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab hic
           veritatis molestias culpa in, recusandae laboriosam neque aliquid
           libero nesciunt voluptate dicta quo officiis explicabo consequuntur
@@ -35,7 +35,7 @@ const FAQs = () => {
       </details>
 
       <details className="group [&_summary::-webkit-details-marker]:hidden">
-        <summary className="flex cursor-pointer items-center justify-between gap-1.5 rounded-lg bg-gray-50 p-4 text-gray-900">
+        <summary className="flex cursor-pointer items-center justify-between gap-1.5 rounded-lg bg-gray-50 p-4 ">
           <h2 className="font-medium">
             Lorem ipsum dolor sit amet consectetur adipisicing?
           </h2>
@@ -56,7 +56,7 @@ const FAQs = () => {
           </svg>
         </summary>
 
-        <p className="mt-4 px-4 leading-relaxed text-gray-700">
+        <p className="mt-4 px-4 leading-relaxed ">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab hic
           veritatis molestias culpa in, recusandae laboriosam neque aliquid
           libero nesciunt voluptate dicta quo officiis explicabo consequuntur
