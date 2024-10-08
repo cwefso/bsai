@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const ImageRight = () => {
   return (
     <section>
@@ -23,11 +25,7 @@ const ImageRight = () => {
             </a>
           </div>
           <div className="relative h-64 overflow-hidden rounded-lg sm:h-80 lg:order-last lg:h-full">
-            <img
-              alt=""
-              src="/images/vr.jpg"
-              className="absolute inset-0 h-full w-full object-cover"
-            />
+            <Image alt="" src="/images/vr.jpg" fill object-fit="cover" />
           </div>
         </div>
       </div>

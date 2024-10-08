@@ -93,13 +93,6 @@ const Footer = () => {
           </div>
 
           <div className="py-8 lg:py-16 lg:pe-16">
-            <Image
-              alt="BSAI logo"
-              src="/images/bsai-with-text.png"
-              width={100}
-              height={100}
-            />
-
             <div className="mt-8 grid grid-cols-1 gap-8 sm:grid-cols-3">
               <div>
                 <p className="font-medium ">Services</p>
